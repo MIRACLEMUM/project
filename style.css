@@ -4,12 +4,10 @@
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
-    list-style-type: none;
+    list-style-type: none; 
 
 
-    
-
-}
+}   
 
 body{
     background-color:#1b263b;
@@ -232,15 +230,44 @@ nav button:hover{
 
 }
 
+.icon-good i{
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border: 1px ;
+    border-radius:7px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
 
 
 .grid-line{
     border: none;
     border-bottom: 4px solid red;
     width: 70px;
-    margin: 10px 0;
-    margin-bottom: 50px;
+    margin: 10px ;
+    
 
+}
+
+.grid-line{
+    border:none;
+    border-bottom:4px solid red ;
+    width:70px ;
+    margin: 10px;
+    
+}
+
+.grid-line {
+    border: none;
+    border-bottom:4px solid red ;
+    width: 70px;
+    margin: 10px;
 }
 
 .box-1{
@@ -257,10 +284,11 @@ nav button:hover{
 
 h2 {
     font-size: 1.5rem;
-    margin: 10px 0;
+    margin: 5px 0;
     color:black;
     text-align: left;
     margin-top: 50px;
+    
     
 }
 
