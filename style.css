@@ -13,6 +13,39 @@ body{
     background-color:#1b263b;
 
 }
+
+/* Default for larger screens */
+body {
+    font-size: 16px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* For tablets and smaller screens */
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .container {
+      padding: 0 10px;
+    }
+  }
+  
+  /* For mobile devices */
+  @media (max-width: 480px) {
+    body {
+      font-size: 12px;
+    }
+  
+    .item {
+      flex: 1 1 100%; /* Make items stack vertically */
+    }
+  }
+  
 h4{
     color: darkcyan;
 }
