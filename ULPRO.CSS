@@ -137,6 +137,11 @@
 
 }
 
+h2{
+    text-align: center;
+    color: black;
+}
+
 .grid-item {
     padding: 20px;
     border-radius: 25px;
@@ -147,6 +152,7 @@
 
   .grid-item p {
     padding-block: 20px;
+    color: black;
   }
 
   .grid-item h1 {
