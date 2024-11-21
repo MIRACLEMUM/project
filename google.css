@@ -123,6 +123,14 @@
     gap: 20px;
     padding-inline: 50px;
     padding-bottom:30px ;
+    @media(max-width:768px){
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    @media (max-width:600px){
+        grid-template-columns:1fr;
+    }
+
     
     
 
