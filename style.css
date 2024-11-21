@@ -96,6 +96,7 @@ nav button:hover{
     text-align: center;
     color:white;
     width: 100%;
+
     
     
     
@@ -106,6 +107,8 @@ nav button:hover{
     color: darkcyan;
     margin-bottom:12px;
     font-size: 20px;
+    position: relative;
+    top: 50px;
 }
 
 .content h1{
@@ -113,6 +116,7 @@ nav button:hover{
     text-align: center;
     text-transform: none;
     color: #fff;
+    margin-top: 70px;
     
 }
 
@@ -121,6 +125,7 @@ nav button:hover{
     margin: 20px auto;
     color: #fff;
     font-weight: 100;
+
 }
 
 .content button{
@@ -158,10 +163,12 @@ nav button:hover{
 .grid-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);/* 3 equal-width colum*/
-    padding-bottom: 50px;
+    padding-bottom: 100px;
+    margin-bottom:100px ;
     margin-inline: 89px;
     padding-inline: 250px;
     padding-left: 50px;
+    padding-right: 50px;
     margin-right: 20px;
     margin-left: 50px;
     gap: 10px;
@@ -178,7 +185,6 @@ nav button:hover{
 .box {
     padding:40px;
     border: 1px solid #ddd;
-    border-radius: 8px;
     text-align: center;
     transition: transform 0.3s ease;
     
@@ -187,22 +193,54 @@ nav button:hover{
 
 .box:hover {
     transform: translateY(-5px);
+     background-color:green;
+    border-radius:8px ;
+}
+
+.icon-item{
+    width:70px ;
+    height: 70px;
+    background-color:lightcoral ;
+    border: 1px solid white;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(185, 33, 6);
+
+
+
+}
+
+.icon-box i {
+    width: 70px;
+    height: 70px;
+    background-color:limegreen ;
+    border: 1px solid white;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color:#0c1801;
+
+}
+
+.icon-box i:hover{
+    background-color: WHITE;
+
 }
 
 
-.box i {
-    
-    color:tomato;
-    margin-bottom: 10px;
 
-    
-}
+.grid-line{
+    border: none;
+    border-bottom: 4px solid red;
+    width: 70px;
+    margin: 10px 0;
+    margin-bottom: 50px;
 
- .box hr {
-    border-bottom: 50px;
-    border-top: 2px solid red;
-    width: 50px;
-    margin: 10px auto;
 }
 
 .box-1{
@@ -218,16 +256,22 @@ nav button:hover{
 }
 
 h2 {
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     margin: 10px 0;
     color:black;
+    text-align: left;
+    margin-top: 50px;
     
 }
 
 p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color:black;
+    
+
 }
+
+
 
 
 
