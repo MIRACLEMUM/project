@@ -94,7 +94,7 @@
 .feature{
     color:lime;
     font-weight: 500;
-    font-size: 2.9rem;
+    font-size: 3rem;
     text-align: center;
     padding-top: 20px;
     margin-bottom: 20px;
@@ -106,7 +106,7 @@
     display: inline-block;
     padding-bottom: 20px;
     font-size: 40px;
-    text-shadow: 4px 4px 4px black;
+    text-shadow: 4px 4px 4px white;
     /*Adjust for smaller screen*/
     @media(max-width:768px){
         font-size:4rem ;
