@@ -92,7 +92,7 @@
 
 }
 .feature{
-    color: lime;
+    color:lime;
     font-weight: 500;
     font-size: 2.9rem;
     text-align: center;
@@ -104,9 +104,9 @@
 .feature h3{
     border-bottom: solid limegreen;
     display: inline-block;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     font-size: 40px;
-    text-shadow: 4px 4px 4px pink;
+    text-shadow: 4px 4px 4px black;
     /*Adjust for smaller screen*/
     @media(max-width:768px){
         font-size:4rem ;
