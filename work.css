@@ -130,11 +130,7 @@
     
     @media (max-width:600px){
         grid-template-columns:1fr ;
-    }
-
-    
-    
-
+    }    
 }
 
 h2{
@@ -147,6 +143,7 @@ h2{
     border-radius: 25px;
     font-size: 1.1rem;
     color: rgb(13, 182, 13);
+    /*
     transition: box-shadow 0.2s ease-out; /* Adjust transition duration as needed */
   }
 
@@ -162,9 +159,9 @@ h2{
   }
 
   .grid-item:hover {
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px black;
     transform: scale(1.05);
-    transition: box-shadow 0.4s ease-out; /* Adjust transition duration as needed */
+    transition: box-shadow 0.4s ease-out;
   }
 
   
