@@ -112,7 +112,7 @@
         font-size:4rem ;
     /*Adjust for even smaller screen*/
     @media(max-width: 480px){
-        font-size: 1rem;
+        font-size: 2rem;
     }
 }    
 }
