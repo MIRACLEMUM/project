@@ -5,12 +5,8 @@
 }
 
 .navbar{
-    background-image: linear-gradient(url green white yellow black pink);
-    
-    
-    
-
-
+    background-color: green;
+    border-radius: 20px;
 }
 
 .navbar ul{
@@ -25,8 +21,8 @@
 
 .navbar a{
     text-decoration: none;
-    border: 6px solid blue;
-    border-radius: 20px;
+    border: 2px solid blue;
+    
     color: brown;
     font-size: small;
     
@@ -38,3 +34,28 @@ transition: 1.5s;
     border-radius: 15px;
 
 }
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-inline: 50px;
+    padding-bottom: 40px;
+    margin-top: 300px;
+
+
+}
+
+.grid-items{
+    padding: 50px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: green;
+    transition: box-shadow 0.3 ease-in-out;
+
+}
+
+.grid-items:hover{
+    box-shadow:5px 5px 5px  5px black;
+    transform: scale(1.07);
+
+}
+
